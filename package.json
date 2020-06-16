@@ -1,0 +1,25 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "LETS MAKE A DISCORD BOT!",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlyabut/my-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlyabut/my-discord-bot/issues"
+  },
+  "homepage": "https://github.com/karlyabut/my-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
