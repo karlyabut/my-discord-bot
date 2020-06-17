@@ -16,7 +16,9 @@ client.on("message", async msg => {
   if (msg.guild.id === guildID && msg.channel.id === channelID) {
     if (msg.content.toLowerCase() === "ramen is love") {
       // await msg.reply("ramen is life!");
-      await msg.channel.send("ramen is life!");
+      await msg.channel.send("ramen is life!", {
+        files: ["src/images/ramen.jpg"]
+      });
     }
   }
 });
